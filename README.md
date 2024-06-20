@@ -2,6 +2,9 @@
 Criado um diagrama de classe tendo como exemplo o lançamento do Iphone 17, seguindo o objetivo do desafio do curso de Orientação ao objeto. 
 
 
+
+  ### Exemplo de Diagrama UML (Mermaid)
+```mermaid
 classDiagram
     class ReprodutorMusical {
         +tocar() void
@@ -36,5 +39,9 @@ classDiagram
     ReprodutorMusical <|.. iPhone
     AparelhoTelefonico <|.. iPhone
     NavegadorInternet <|.. iPhone
+
+  
+```
+
 
   
